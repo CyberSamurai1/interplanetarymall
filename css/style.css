@@ -1,0 +1,91 @@
+* {
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    background: white;
+    color : red;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/*header {
+  background-color: blue;
+}
+*/
+ .logo {
+   margin-top: 10px;
+   padding: 0 0px 0 11px;
+   width: 33px;
+   height: 33px;
+   
+ }
+
+ .logo_text {
+   margin-top: 10px;
+   font-family: Monospace;
+   font-size: 28px;
+   color: #000000;
+   text-align: top right;
+ }
+ 
+ .description {
+   margin-top: 10px;
+   font-family: Monospace;
+   font-size: 14px;
+   color: grey;
+   text-align: center;
+ }
+
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+}
+
+	
+	.messenger {
+		display: flex;
+		justify-content: space-evenly;
+		position: relative;
+		margin-top: 50px;
+		padding: 50px 0 50px 0;
+		}
+		
+	.icons {
+    width: 50px;
+		height: 50px;
+	  border-radius: 10px;
+		}
+	
+		.messenger_dscr {
+		display: flex;
+		justify-content: space-evenly;
+		padding: 5px 0 5px 0;
+		}
+		
+		. descriptions {
+      font-family: Monospace;
+      font-size: 8px;
+      color: grey;
+      text-align: center;
+		}
+		
+	.chat_bot {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
